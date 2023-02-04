@@ -1,0 +1,62 @@
+body {
+    background-color: #6ba6a4;
+    background-image: url("background.jpg");
+    background-repeat:  no-repeat;
+    background-position-x: 35%;
+    padding: 0px;
+  }
+
+  h1 {
+    padding: 10px;
+  }
+  
+  h2 {
+    color: rgb(15, 15, 15);
+    max-width: 60%;
+    font-size: larger;
+  }
+
+  #hob {
+    background-color: red;
+    color:rgb(15, 15, 15);
+  }
+
+  #food {
+    background-color: green;
+    color:rgb(15, 15, 15);
+  }
+
+  #move {
+    background-color: yellow;
+    color:rgb(15, 15, 15);
+  }
+  
+  #trav {
+    background-color: orange;
+    color:rgb(15, 15, 15);
+  }
+  
+  #study {
+    background-color: pink;
+    color:rgb(15, 15, 15);
+  }
+  
+  #me {
+    background-color: lightblue;
+    color:rgb(15, 15, 15);
+  }
+  
+  p {
+    font-size: large;
+    max-width: 70%;
+    padding: 10px;
+  }
+  
+  .gridp {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      color: #444;
+      padding: 20px;
+    }
